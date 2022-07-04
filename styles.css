@@ -173,6 +173,10 @@ section {
     border-radius: 0.5rem;
 }
 
+.box:hover {
+    cursor: pointer;
+}
+
 .box-img {
     width: 13.75rem;
     height: 13.75rem;
@@ -208,4 +212,26 @@ section {
     font-size: 1.25rem;
     padding: 7px 10px;
     border-radius: 0 0.5rem 0 0.5rem;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    grid-gap: 1.5rem;
+    margin-top: 4rem;
+}
+
+.s-box {
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.s-box img {
+    width: 5.625rem;
+}
+
+.s-box h3 {
+    margin: 4px 0 10px;
+    color: var(--main-color);
+    font-size: 1.2rem;
 }
